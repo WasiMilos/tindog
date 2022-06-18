@@ -1,0 +1,169 @@
+#title {
+    background-color: #ff4c68;
+    height: 620px;
+
+}
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bolder;
+    padding-right: 40px;
+    padding-bottom: 25px;
+}
+ .container-fluid {
+    padding: 3% 15%;
+ }
+
+.kutta {
+    padding-top: 65px;
+}
+
+.download-button {
+    border-radius: 4px;
+    margin: 3% 3% 3% 0;
+
+}
+
+.tilt-img {
+    width: 60%;
+    transform: rotate(25deg);
+    padding: 20px;
+}
+
+.ficon {
+    color: #ef8172;
+    line-height: 1.5;
+}
+
+.fhead {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.fp {
+    color: #8f8f8f;
+}
+
+#features {
+    background-color: whitesmoke;
+    position: relative;
+    z-index: 1;
+   
+}
+
+.ffeature {
+    text-align: center;
+    line-height: 1.7;
+    padding: 7% 15%;
+    
+}
+
+.fdiv {
+    padding: 5%;
+
+}
+
+.ficon:hover {
+    color: #ff4c68;
+    
+}
+
+#testimonials {
+    background-color: #ef8172;
+    
+    text-align: center;
+    color: whitesmoke;
+
+}
+
+h2 {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.test-img {
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pdiv {
+    padding: 3% 2%;
+}
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    line-height: 2;
+    padding: 7% 15%;
+    
+}
+
+.pcta {
+    font-weight: bold;
+    color: whitesmoke;
+    font-size: 3.5rem;
+    text-align: center;
+    
+}
+
+#footer {
+    text-align: center;
+    padding-top: 5%;
+    line-height: 2;
+}
+
+.insta {
+    padding-left: 0.6%;
+    padding-right: 0.6%;
+}
+.twitter {
+    padding-left: 0.6%;
+    
+}
+
+@media (max-width: 1028px) {
+    .tilt-img {
+        position: static;
+        transform: rotate(0);
+    }
+
+    #title {
+        text-align: center;
+        height: 1000px;
+    }
+    
+     #testimonials h2 {
+        font-size: 1.5rem;
+        font-weight: normal;
+     }
+
+}
+
